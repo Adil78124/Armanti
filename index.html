@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arman Interior - Home</title>
+  <title>Arman Interior</title>
   <link rel="stylesheet" href="css/index.css">
   <script src="js/Projects.js"></script>
 
@@ -120,7 +120,39 @@
         </footer>
     </section>
   </div>
+<style>
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-image: url('img/img/001.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
 
+  .background {
+    background-image: url('img/desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 640px) {
+    .background {
+      background-image: url('img/mobile.jpg');
+      width: auto;
+      height: auto;
+    }
+
+    .text1 {
+      padding: 50px 25px 0px;
+    }
+  }
+</style>
 
 
 
